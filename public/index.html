@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Alumnos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Registro de Alumnos</h1>
+        
+        <div class="formulario">
+            <input type="text" id="nombre" placeholder="Nombre del alumno">
+            <input type="number" id="edad" placeholder="Edad">
+            <input type="number" id="nota" placeholder="Nota">
+            <button id="btnCargar">Cargar Alumno</button>
+        </div>
+
+        <hr>
+
+        <h2>Listado Ordenado (Nota y Nombre)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Nota</th>
+                </tr>
+            </thead>
+            <tbody id="tablaAlumnos">
+                </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
